@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Rex-TechGear Store</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Rex-TechGear Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Products</h2>
+        <section class="product-list">
+            <article class="product-item">
+                <img src="images/laptop.jpg" alt="laptop">
+                <h3>UltraBook Pro</h3>
+                <p>Description of Product 1.</p>
+                <p>Price: $999</p>
+                <button onclick="addToCart('UltraBook Pro')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/headphone.jpg" alt="headphone">
+                <h3>Noise-Cancelling Headphone</h3>
+                <p>Description of Product 2.</p>
+                <p>Price: $149.99</p>
+                <button onclick="addToCart('Headphone')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/keyboard.jpg" alt="keyboard">
+                <h3>Keyboard</h3>
+                <p>Description of Product 3.</p>
+                <p>Price: $49.99</p>
+                <button onclick="addToCart('Keyboard')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/external-hard-drive.jpg" alt="hard-drive">
+                <h3>External Hard Drive</h3>
+                <p>Description of Product 4.</p>
+                <p>Price: $29.99</p>
+                <button onclick="addToCart('Hard-drive')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/printers.jpg" alt="printers">
+                <h3>Laser Printer</h3>
+                <p>Description of Product 5.</p>
+                <p>Price: $129.99</p>
+                <button onclick="addToCart('Headphone')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/smartphone.jpg" alt="smartphone">
+                <h3>Smartphone</h3>
+                <p>Description of Product 6.</p>
+                <p>Price: $699</p>
+                <button onclick="addToCart('Smartphone')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/smartwatch.jpg" alt="smartwatch">
+                <h3>Smart Watch</h3>
+                <p>Description of Product 7.</p>
+                <p>Price: $199.99</p>
+                <button onclick="addToCart('Smartwatch')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/tablet.jpg" alt="tablet">
+                <h3>Tablet</h3>
+                <p>Description of Product 8.</p>
+                <p>Price: $499.99</p>
+                <button onclick="addToCart('Tablet')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/gaming-console.jpg" alt="gaming-console">
+                <h3>Gaming Console</h3>
+                <p>Description of Product 9.</p>
+                <p>Price: $399.99</p>
+                <button onclick="addToCart('Gaming Console')">Add to Cart</button>
+            </article>
+
+            <article class="product-item">
+                <img src="images/smart-tv.jpg" alt="smart-tv">
+                <h3>Smart TV</h3>
+                <p>Description of Product 10.</p>
+                <p>Price: $799.99</p>
+                <button onclick="addToCart('Smart TV')">Add to Cart</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Rex-TechGear Store. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
